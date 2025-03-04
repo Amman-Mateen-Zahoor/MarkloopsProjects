@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+/* TopHeading */
+.topHeading {
+  background-color: #ff6500;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.freeShipping {
+  color: #ffffff;
+  font-size: 14px;
+}
+/* navBar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+/* Logo Main Container */
+.navLogo {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+.logo {
+  background-size: cover;
+  height: 70%;
+  width: 70%;
+}
+
+.panel-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.panel-2 p {
+  margin: 0 15px;
+}
+/* NavBarIcons */
+.navIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  margin-right: 5%;
+}
+.searchIcon,
+.userIcon,
+.cartIcon {
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+}
+.searchIcon {
+  background-image: url(./assets/icons/search.png);
+}
+.userIcon {
+  background-image: url(./assets/icons/profile.png);
+}
+.cartIcon {
+  background-image: url(./assets/icons/cart.png);
+}
